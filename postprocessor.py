@@ -35,7 +35,7 @@ parser.add_argument("-c", "--no-comments", help="do not include comments",
                     
 parser.add_argument('--file-extension', dest='file_extension',
                    metavar='extension', default='din',
-                   help='step the file extension (default: din)')
+                   help='set the file extension (default: din)')
                    
 parser.add_argument('--num-steps', dest='num_steps', type=int,
                    metavar='N', default=1,
@@ -43,7 +43,7 @@ parser.add_argument('--num-steps', dest='num_steps', type=int,
                    
 parser.add_argument('--num-start', dest='num_start', type=int,
                    metavar='N', default=1,
-                   help='start line numbers (default: 1)')
+                   help='start line number (default: 1)')
                    
 parser.add_argument('-o', '--output', dest='output',
                    metavar='FILE', help='DIN G-Codes file')
